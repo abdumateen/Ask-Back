@@ -1,0 +1,21 @@
+# A3 pre-registered: P3 × {cooperative, impatient_expert, knowledgeable_noisy}
+# × high × k=1 × 100 seeds = 300 episodes.
+run_id: a3
+master_seed: 20250
+
+domain: {n_fields: 15, rule_density: high, validator_tier: 1}
+extractor: {type: stub, p_clean: 0.50, p_uncertain: 0.30, p_missing: 0.20}
+merger: direct
+simulator: {answer_renderer: analytic}
+
+policies: [P3]
+personas: [cooperative, impatient_expert, knowledgeable_noisy]
+n_episodes: 100
+
+voi: {n_mc: 2048, exact_max_uncertain: 6, exact_max_states: 5000}
+stop_grids:
+  S1_c: [0.005, 0.01, 0.02, 0.05, 0.10]
+cost: {alpha: 1.0, beta: 10.0, gamma: 5.0}
+
+bootstrap: {n_resamples: 10000, ci: 0.95}
+out_dir: runs/ablations/a3

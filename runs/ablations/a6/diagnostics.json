@@ -1,0 +1,13 @@
+{
+  "method": "A4 diagnostics on log fields + initial gap set",
+  "overall_blind_spot_targeting_rate": 0.9825581395348837,
+  "overall_total_asks": 688,
+  "policies": {
+    "P3": {
+      "blind_spot_targeting_rate": 0.9825581395348837,
+      "hit_validity_spearman": 0.02453448500117903,
+      "n_episodes": 100,
+      "total_asks": 688
+    }
+  }
+}

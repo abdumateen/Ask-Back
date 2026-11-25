@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "askback"
+version = "0.1.0"
+description = "Interactive schema completion via value-of-information question selection"
+requires-python = ">=3.11"
+dependencies = ["numpy", "pandas", "matplotlib", "pytest", "pyyaml"]
+
+[tool.setuptools.packages.find]
+include = ["askback*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# pytest-agent-qa autoloads from the user's site-packages and adds ~4.5s of
+# blocking network I/O per test; it is unrelated to this project.
+addopts = "-p no:agent_qa"

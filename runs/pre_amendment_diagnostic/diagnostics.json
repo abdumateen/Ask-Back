@@ -1,0 +1,31 @@
+{
+  "method": "A4 diagnostics on log fields + initial gap set",
+  "overall_blind_spot_targeting_rate": 0.8627240143369176,
+  "overall_total_asks": 11160,
+  "policies": {
+    "P0": {
+      "blind_spot_targeting_rate": 0.8466213800500536,
+      "hit_validity_spearman": -0.12808860315712217,
+      "n_episodes": 400,
+      "total_asks": 2797
+    },
+    "P1": {
+      "blind_spot_targeting_rate": 0.8711524695776665,
+      "hit_validity_spearman": -0.0004417494501356698,
+      "n_episodes": 400,
+      "total_asks": 2794
+    },
+    "P2": {
+      "blind_spot_targeting_rate": 0.8597997138769671,
+      "hit_validity_spearman": -0.048424393695712234,
+      "n_episodes": 400,
+      "total_asks": 2796
+    },
+    "P3": {
+      "blind_spot_targeting_rate": 0.8734222863324919,
+      "hit_validity_spearman": 0.19992141954884962,
+      "n_episodes": 400,
+      "total_asks": 2773
+    }
+  }
+}

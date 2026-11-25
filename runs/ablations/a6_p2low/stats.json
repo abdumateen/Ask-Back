@@ -1,0 +1,15 @@
+{
+  "H1": [],
+  "H1_v": 0.1,
+  "H2": null,
+  "H2_v": 0.1,
+  "method": "A14: paired bootstrap on quantile T_p(v), H1/H2",
+  "n_resamples": 10000,
+  "pairing": "episode_idx",
+  "policy_set": [
+    "P2"
+  ],
+  "seed": 20250,
+  "v_reason": "primary 0.10",
+  "vacuous": true
+}

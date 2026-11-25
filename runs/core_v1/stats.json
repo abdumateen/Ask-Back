@@ -1,0 +1,44 @@
+{
+  "H1": [
+    {
+      "baseline": "P0",
+      "n_paired": 100,
+      "observed_quantile_diff": 1,
+      "p_holm": 1.0,
+      "p_one_sided": 0.5373629689228603
+    },
+    {
+      "baseline": "P2",
+      "n_paired": 100,
+      "observed_quantile_diff": 0,
+      "p_holm": 1.0,
+      "p_one_sided": 0.6171256885327991
+    },
+    {
+      "baseline": "P1",
+      "n_paired": 100,
+      "observed_quantile_diff": 0,
+      "p_holm": 1.0,
+      "p_one_sided": 0.6974196945760927
+    }
+  ],
+  "H1_v": 0.05,
+  "H2": {
+    "n_paired": 100,
+    "observed_quantile_diff": 0,
+    "p_one_sided": 1.0,
+    "policy": "P0",
+    "reference_T_S2_1_0": {
+      "T_S0": 6,
+      "T_S2_1_0": 6
+    },
+    "turn_savings_S0_minus_S2": 0
+  },
+  "H2_v": 0.05,
+  "method": "A14: paired bootstrap on quantile T_p(v), H1/H2",
+  "n_resamples": 10000,
+  "pairing": "episode_idx",
+  "seed": 20250,
+  "v_reason": "fallback 0.05: T_p(0.10) undefined for some policy",
+  "vacuous": false
+}

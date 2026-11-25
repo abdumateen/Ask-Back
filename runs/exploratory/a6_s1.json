@@ -1,0 +1,206 @@
+{
+  "bootstrap": {
+    "confidence": 0.95,
+    "method": "independent-groups percentile",
+    "resamples": 10000,
+    "seed": 20250
+  },
+  "c_values": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "densities": [
+    "high",
+    "low"
+  ],
+  "method": "A6 B4: counterfactual S1 replay on existing stored episodes. Reconstructed initial and post-turn \u0394P from stored extraction, episode seeds, deterministic analytic answers, and post-turn states. No episode seeds or episodes generated. S1 truncates each S0 policy trajectory at the first S1 threshold; the retained S0 prefix preserves policy choices and answers. Delta-in-delta = (P3\u2212P2 high)\u2212(P3\u2212P2 low) for T_p(v). Independent-groups percentile bootstrap because density_id changes seed stream; 10,000 resamples, 95% CI.",
+  "n_episodes_per_cell": 100,
+  "policies": [
+    "P2",
+    "P3"
+  ],
+  "results": [
+    {
+      "T": {
+        "P2_high": null,
+        "P2_low": null,
+        "P3_high": null,
+        "P3_low": null
+      },
+      "bootstrap_95ci": null,
+      "c": 0.02,
+      "delta_in_delta_turns": null,
+      "v": 0.1,
+      "valid_bootstrap_resamples": 0,
+      "validity_rate": {
+        "P2_high": 0.03,
+        "P2_low": 0.02,
+        "P3_high": 0.02,
+        "P3_low": 0.0
+      }
+    },
+    {
+      "T": {
+        "P2_high": null,
+        "P2_low": null,
+        "P3_high": null,
+        "P3_low": null
+      },
+      "bootstrap_95ci": null,
+      "c": 0.02,
+      "delta_in_delta_turns": null,
+      "v": 0.15,
+      "valid_bootstrap_resamples": 0,
+      "validity_rate": {
+        "P2_high": 0.03,
+        "P2_low": 0.02,
+        "P3_high": 0.02,
+        "P3_low": 0.0
+      }
+    },
+    {
+      "T": {
+        "P2_high": null,
+        "P2_low": null,
+        "P3_high": null,
+        "P3_low": null
+      },
+      "bootstrap_95ci": null,
+      "c": 0.02,
+      "delta_in_delta_turns": null,
+      "v": 0.2,
+      "valid_bootstrap_resamples": 0,
+      "validity_rate": {
+        "P2_high": 0.03,
+        "P2_low": 0.02,
+        "P3_high": 0.02,
+        "P3_low": 0.0
+      }
+    },
+    {
+      "T": {
+        "P2_high": null,
+        "P2_low": null,
+        "P3_high": null,
+        "P3_low": null
+      },
+      "bootstrap_95ci": null,
+      "c": 0.05,
+      "delta_in_delta_turns": null,
+      "v": 0.1,
+      "valid_bootstrap_resamples": 0,
+      "validity_rate": {
+        "P2_high": 0.02,
+        "P2_low": 0.02,
+        "P3_high": 0.01,
+        "P3_low": 0.0
+      }
+    },
+    {
+      "T": {
+        "P2_high": null,
+        "P2_low": null,
+        "P3_high": null,
+        "P3_low": null
+      },
+      "bootstrap_95ci": null,
+      "c": 0.05,
+      "delta_in_delta_turns": null,
+      "v": 0.15,
+      "valid_bootstrap_resamples": 0,
+      "validity_rate": {
+        "P2_high": 0.02,
+        "P2_low": 0.02,
+        "P3_high": 0.01,
+        "P3_low": 0.0
+      }
+    },
+    {
+      "T": {
+        "P2_high": null,
+        "P2_low": null,
+        "P3_high": null,
+        "P3_low": null
+      },
+      "bootstrap_95ci": null,
+      "c": 0.05,
+      "delta_in_delta_turns": null,
+      "v": 0.2,
+      "valid_bootstrap_resamples": 0,
+      "validity_rate": {
+        "P2_high": 0.02,
+        "P2_low": 0.02,
+        "P3_high": 0.01,
+        "P3_low": 0.0
+      }
+    },
+    {
+      "T": {
+        "P2_high": null,
+        "P2_low": null,
+        "P3_high": null,
+        "P3_low": null
+      },
+      "bootstrap_95ci": null,
+      "c": 0.1,
+      "delta_in_delta_turns": null,
+      "v": 0.1,
+      "valid_bootstrap_resamples": 0,
+      "validity_rate": {
+        "P2_high": 0.0,
+        "P2_low": 0.01,
+        "P3_high": 0.0,
+        "P3_low": 0.0
+      }
+    },
+    {
+      "T": {
+        "P2_high": null,
+        "P2_low": null,
+        "P3_high": null,
+        "P3_low": null
+      },
+      "bootstrap_95ci": null,
+      "c": 0.1,
+      "delta_in_delta_turns": null,
+      "v": 0.15,
+      "valid_bootstrap_resamples": 0,
+      "validity_rate": {
+        "P2_high": 0.0,
+        "P2_low": 0.01,
+        "P3_high": 0.0,
+        "P3_low": 0.0
+      }
+    },
+    {
+      "T": {
+        "P2_high": null,
+        "P2_low": null,
+        "P3_high": null,
+        "P3_low": null
+      },
+      "bootstrap_95ci": null,
+      "c": 0.1,
+      "delta_in_delta_turns": null,
+      "v": 0.2,
+      "valid_bootstrap_resamples": 0,
+      "validity_rate": {
+        "P2_high": 0.0,
+        "P2_low": 0.01,
+        "P3_high": 0.0,
+        "P3_low": 0.0
+      }
+    }
+  ],
+  "source_runs": [
+    "runs/core_v1",
+    "runs/ablations/a6",
+    "runs/ablations/a6_p2low"
+  ],
+  "v_values": [
+    0.1,
+    0.15,
+    0.2
+  ]
+}

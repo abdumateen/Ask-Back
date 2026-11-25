@@ -1,0 +1,29 @@
+{
+  "method": "A6 (A16c): density ablation, four-cell delta-in-delta on S0 mean turns",
+  "note": "no episode-level pairing across densities (density_id in seed scheme); bootstrap CI uses independent groups, 10k, seed 20250",
+  "cells": {
+    "P3h": {
+      "n": 100,
+      "mean_turns": 6.84
+    },
+    "P2h": {
+      "n": 100,
+      "mean_turns": 6.87
+    },
+    "P3l": {
+      "n": 100,
+      "mean_turns": 6.88
+    },
+    "P2l": {
+      "n": 100,
+      "mean_turns": 6.89
+    }
+  },
+  "delta_in_delta_turns": -0.02,
+  "bootstrap_95ci": [
+    -0.53,
+    0.5
+  ],
+  "P_boot_lt_0": 0.5264,
+  "null": true
+}

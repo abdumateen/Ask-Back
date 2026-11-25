@@ -1,0 +1,38 @@
+{
+  "comparisons": [
+    {
+      "baseline": "P2",
+      "mean_turns_P3": 6.9325,
+      "mean_turns_baseline": 6.99,
+      "n_paired": 400,
+      "n_resamples": 10000,
+      "observed_mean_diff": 0.0575,
+      "p_holm": 0.757124287571243,
+      "p_one_sided": 0.25237476252374763
+    },
+    {
+      "baseline": "P0",
+      "mean_turns_P3": 6.9325,
+      "mean_turns_baseline": 6.9925,
+      "n_paired": 400,
+      "n_resamples": 10000,
+      "observed_mean_diff": 0.06,
+      "p_holm": 0.757124287571243,
+      "p_one_sided": 0.25937406259374063
+    },
+    {
+      "baseline": "P1",
+      "mean_turns_P3": 6.9325,
+      "mean_turns_baseline": 6.985,
+      "n_paired": 400,
+      "n_resamples": 10000,
+      "observed_mean_diff": 0.0525,
+      "p_holm": 0.757124287571243,
+      "p_one_sided": 0.28077192280771923
+    }
+  ],
+  "method": "paired bootstrap, one-sided mean-diff test",
+  "n_resamples": 10000,
+  "pairing": "episode_idx",
+  "seed": 20250
+}

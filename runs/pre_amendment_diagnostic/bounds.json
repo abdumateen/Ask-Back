@@ -1,0 +1,26 @@
+{
+  "P0": {
+    "mean_bound_oracle_questions": 5.117647058823529,
+    "n_episodes": 400,
+    "n_episodes_unpassable": 332,
+    "n_passable": 68
+  },
+  "P1": {
+    "mean_bound_oracle_questions": 5.036363636363636,
+    "n_episodes": 400,
+    "n_episodes_unpassable": 345,
+    "n_passable": 55
+  },
+  "P2": {
+    "mean_bound_oracle_questions": 4.857142857142857,
+    "n_episodes": 400,
+    "n_episodes_unpassable": 344,
+    "n_passable": 56
+  },
+  "P3": {
+    "mean_bound_oracle_questions": 5.254237288135593,
+    "n_episodes": 400,
+    "n_episodes_unpassable": 341,
+    "n_passable": 59
+  }
+}

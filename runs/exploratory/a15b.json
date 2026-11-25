@@ -1,0 +1,22 @@
+{
+  "H1": [
+    {
+      "baseline": "P0",
+      "n_paired": 100,
+      "observed_quantile_diff": 2,
+      "p_holm": 0.9654480286738352,
+      "p_one_sided": 0.4827240143369176
+    },
+    {
+      "baseline": "P2",
+      "n_paired": 100,
+      "observed_quantile_diff": 1,
+      "p_holm": 0.9654480286738352,
+      "p_one_sided": 0.49817162359824474
+    }
+  ],
+  "exploratory": true,
+  "method": "A15b: exploratory H1 at v=0.10 on realistic excl. P1; P3 vs {P0,P2}; paired bootstrap; Holm alpha=0.05. NOT confirmatory.",
+  "seed": 20250,
+  "v": 0.1
+}

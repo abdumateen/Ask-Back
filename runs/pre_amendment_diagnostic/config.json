@@ -1,0 +1,53 @@
+{
+  "bootstrap": {
+    "ci": 0.95,
+    "n_resamples": 10000
+  },
+  "cost": {
+    "alpha": 1.0,
+    "beta": 10.0,
+    "gamma": 5.0
+  },
+  "domain": {
+    "n_fields": 15,
+    "rule_density": "high",
+    "validator_tier": 1
+  },
+  "extractor": {
+    "p_clean": 0.5,
+    "p_missing": 0.2,
+    "p_uncertain": 0.3,
+    "type": "stub"
+  },
+  "master_seed": 20250,
+  "merger": "direct",
+  "n_episodes": 400,
+  "out_dir": "runs/core_v1",
+  "personas": [
+    "realistic"
+  ],
+  "policies": [
+    "P0",
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "run_id": "core_v1",
+  "simulator": {
+    "answer_renderer": "analytic"
+  },
+  "stop_grids": {
+    "S1_c": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1
+    ]
+  },
+  "voi": {
+    "exact_max_states": 5000,
+    "exact_max_uncertain": 6,
+    "n_mc": 2048
+  }
+}

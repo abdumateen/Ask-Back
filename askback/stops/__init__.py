@@ -1,0 +1,1 @@
+"""Stop rules — PRD §9.2 (as replaced by A10) and §9.3 replay."""

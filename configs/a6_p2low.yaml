@@ -1,0 +1,22 @@
+# A16c / B1: P2 × realistic × low density × k=1 × 100 seeds = 100 episodes.
+# Completes the A6 mechanism cell so the (P3 − P2) contrast is available at
+# low density (P2-low); four cells: P2 high, P2 low, P3 high, P3 low.
+run_id: a6_p2low
+master_seed: 20250
+
+domain: {n_fields: 15, rule_density: low, validator_tier: 1}
+extractor: {type: stub, p_clean: 0.50, p_uncertain: 0.30, p_missing: 0.20}
+merger: direct
+simulator: {answer_renderer: analytic}
+
+policies: [P2]
+personas: [realistic]
+n_episodes: 100
+
+voi: {n_mc: 2048, exact_max_uncertain: 6, exact_max_states: 5000}
+stop_grids:
+  S1_c: [0.005, 0.01, 0.02, 0.05, 0.10]
+cost: {alpha: 1.0, beta: 10.0, gamma: 5.0}
+
+bootstrap: {n_resamples: 10000, ci: 0.95}
+out_dir: runs/ablations/a6_p2low
